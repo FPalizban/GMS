@@ -1,0 +1,151 @@
+--- GMS1 Rules (F1: 0.941, Acc: 0.995) ---
+|--- AAR <= 2.52
+|   |--- CWML <= -12438.15
+|   |   |--- class: 0
+|   |--- CWML >  -12438.15
+|   |   |--- class: 1
+|--- AAR >  2.52
+|   |--- class: 0
+
+
+--- GMS10 Rules (F1: 0.865, Acc: 0.967) ---
+|--- HIGH_Frac <= 0.08
+|   |--- HIGH_Frac <= 0.08
+|   |   |--- class: 0
+|   |--- HIGH_Frac >  0.08
+|   |   |--- class: 0
+|--- HIGH_Frac >  0.08
+|   |--- CWML <= -17375.03
+|   |   |--- class: 0
+|   |--- CWML >  -17375.03
+|   |   |--- class: 1
+
+
+--- GMS11 Rules (F1: 0.879, Acc: 0.981) ---
+|--- CWML <= -13609.77
+|   |--- HIGH_Frac <= 0.07
+|   |   |--- class: 1
+|   |--- HIGH_Frac >  0.07
+|   |   |--- class: 0
+|--- CWML >  -13609.77
+|   |--- AAR <= 2.47
+|   |   |--- class: 1
+|   |--- AAR >  2.47
+|   |   |--- class: 0
+
+
+--- GMS12 Rules (F1: 0.536, Acc: 0.742) ---
+|--- CWML <= -4218.01
+|   |--- HIGH_Frac <= 0.07
+|   |   |--- class: 1
+|   |--- HIGH_Frac >  0.07
+|   |   |--- class: 0
+|--- CWML >  -4218.01
+|   |--- class: 0
+
+
+--- GMS13 Rules (F1: 0.621, Acc: 0.922) ---
+|--- HIGH_Frac <= 0.06
+|   |--- AAR <= 2.77
+|   |   |--- class: 0
+|   |--- AAR >  2.77
+|   |   |--- class: 1
+|--- HIGH_Frac >  0.06
+|   |--- class: 0
+
+
+--- GMS2 Rules (F1: 0.594, Acc: 0.877) ---
+|--- AAR <= 2.83
+|   |--- AAR <= 2.45
+|   |   |--- class: 0
+|   |--- AAR >  2.45
+|   |   |--- class: 0
+|--- AAR >  2.83
+|   |--- AAR <= 3.25
+|   |   |--- class: 1
+|   |--- AAR >  3.25
+|   |   |--- class: 0
+
+
+--- GMS3 Rules (F1: 1.000, Acc: 1.000) ---
+|--- CWML <= -17095.74
+|   |--- AAR <= 2.83
+|   |   |--- class: 0
+|   |--- AAR >  2.83
+|   |   |--- class: 1
+|--- CWML >  -17095.74
+|   |--- class: 0
+
+
+--- GMS4 Rules (F1: 0.880, Acc: 0.993) ---
+|--- CWML <= -17602.81
+|   |--- HIGH_Frac <= 0.07
+|   |   |--- class: 0
+|   |--- HIGH_Frac >  0.07
+|   |   |--- class: 1
+|--- CWML >  -17602.81
+|   |--- CWML <= -17300.63
+|   |   |--- class: 0
+|   |--- CWML >  -17300.63
+|   |   |--- class: 0
+
+
+--- GMS5 Rules (F1: 0.913, Acc: 0.948) ---
+|--- CWML <= -4218.01
+|   |--- AAR <= 2.45
+|   |   |--- class: 0
+|   |--- AAR >  2.45
+|   |   |--- class: 0
+|--- CWML >  -4218.01
+|   |--- AAR <= 2.87
+|   |   |--- class: 1
+|   |--- AAR >  2.87
+|   |   |--- class: 0
+
+
+--- GMS6 Rules (F1: 0.962, Acc: 0.995) ---
+|--- AAR <= 3.10
+|   |--- AAR <= 2.45
+|   |   |--- class: 0
+|   |--- AAR >  2.45
+|   |   |--- class: 0
+|--- AAR >  3.10
+|   |--- CWML <= -3620.15
+|   |   |--- class: 1
+|   |--- CWML >  -3620.15
+|   |   |--- class: 0
+
+
+--- GMS7 Rules (F1: 0.444, Acc: 0.905) ---
+|--- HIGH_Frac <= 0.07
+|   |--- class: 0
+|--- HIGH_Frac >  0.07
+|   |--- AAR <= 2.69
+|   |   |--- class: 0
+|   |--- AAR >  2.69
+|   |   |--- class: 1
+
+
+--- GMS8 Rules (F1: 1.000, Acc: 1.000) ---
+|--- CWML <= -34805.35
+|   |--- class: 1
+|--- CWML >  -34805.35
+|   |--- AAR <= 2.45
+|   |   |--- class: 0
+|   |--- AAR >  2.45
+|   |   |--- class: 0
+
+
+--- GMS9 Rules (F1: 0.590, Acc: 0.941) ---
+|--- HIGH_Frac <= 0.05
+|   |--- CWML <= -8074.30
+|   |   |--- class: 0
+|   |--- CWML >  -8074.30
+|   |   |--- class: 1
+|--- HIGH_Frac >  0.05
+|   |--- HIGH_Frac <= 0.06
+|   |   |--- class: 0
+|   |--- HIGH_Frac >  0.06
+|   |   |--- class: 0
+
+
